@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://myFirstCluster:123456780@first-cluster.cqachga.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://myFirstCluster:00000000@first-cluster.cqachga.mongodb.net/?retryWrites=true&w=majority";
 const Cars = require('./models/carsModel');
 const app = express();
 // const route=express().router();
